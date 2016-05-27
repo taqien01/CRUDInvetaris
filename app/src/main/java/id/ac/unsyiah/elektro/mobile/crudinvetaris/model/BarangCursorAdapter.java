@@ -36,7 +36,7 @@ public class BarangCursorAdapter extends CursorAdapter {
         String gambarStr = cursor.getString(cursor.getColumnIndexOrThrow(AturBarangDB.GAMBAR));
         ImageView txtGambar = (ImageView) view.findViewById(R.id.imageView);
         int posisi = Integer.parseInt(gambarStr);
-        int [] gambar = {0,R.drawable.cpu,R.drawable.mouse,R.drawable.speaker,R.drawable.keyboard,R.drawable.monitor};
+        int [] gambar = {R.drawable.unavalaible,R.drawable.cpu,R.drawable.mouse,R.drawable.speaker,R.drawable.keyboard,R.drawable.monitor};
         txtGambar.setImageResource(gambar[posisi]);
 
 
