@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CRUDInvetaris</string>
+    <string-array name="daftarBarang">
+        <item>Barang</item>
+    </string-array>
+    <string-array name="gambar">
+        <item>Pilih Gambar</item>
+        <item>CPU</item>
+        <item>Mouse</item>
+        <item>Speaker</item>
+        <item>Keyboard</item>
+        <item>Monitor</item>
+    </string-array>
+</resources>
